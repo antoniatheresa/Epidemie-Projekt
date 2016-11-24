@@ -23,6 +23,7 @@ https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/movement.PNG
 ##Infektionsherd<a name="2"></a> 
 
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Infektionsherd.PNG
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Gleichung%20Infektionsherd.PNG
 
 ##Ansteckung<a name="3"></a> 
 
