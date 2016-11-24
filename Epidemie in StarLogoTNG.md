@@ -27,3 +27,9 @@ https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Infektionsherd.PN
 ##Ansteckung<a name="3"></a> 
 
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Ansteckungsrate.PNG
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Ansteckung.PNG
+
+##Immunität<a name="4"></a> 
+
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Homogen.PNG
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/movement.PNG
