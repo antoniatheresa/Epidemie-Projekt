@@ -26,4 +26,5 @@ https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Gleichung%20Infek
 
 ##Ansteckung<a name="3"></a> 
 
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Ansteckungsrate.PNG
 
