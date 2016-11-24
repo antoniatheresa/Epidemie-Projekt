@@ -9,12 +9,12 @@
 [4. Immunität](#4)
 [5. Gesundheitszustand](#5)
 
-
-
 ###StarLogoTNG<a name="Einführung"></a> 
 
 StarLogoTNG ist ein Simulationsprogramm für Blockprogrammiersprache.
+
 ###Homogene Epidemie<a name="1"></a> 
+
 
 
 ###Infektionsherd<a name="2"></a> 
