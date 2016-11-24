@@ -33,3 +33,8 @@ https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Ansteckung.PNG
 
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Homogen.PNG
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/movement.PNG
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Boolsche.PNG
+
+##Gesundheitszustand<a name="5"></a> 
+
+
