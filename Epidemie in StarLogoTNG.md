@@ -16,31 +16,31 @@ Es ist übersichtlich aufgebaut und besteht aus zwei Feldern, dem Programmierfel
 
 ##Homogene Epidemie<a name="1"></a> 
 
-https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Ansteckungsrate.PNG 
-https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Giraffen.PNG 
-https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Homogen.PNG 
-https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/movement.PNG 
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Ansteckungsrate.PNG     
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Giraffen.PNG      
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Homogen.PNG       
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/movement.PNG     
 
 ##Infektionsherd<a name="2"></a> 
 
-https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Ansteckungsrate.PNG 
-https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Infektionsherd.PNG 
-https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Gleichung%20Infektionsherd.PNG 
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Ansteckungsrate.PNG      
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Infektionsherd.PNG     
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Gleichung%20Infektionsherd.PNG      
 
 ##Ansteckung<a name="3"></a> 
 
-https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Ansteckungsrate.PNG 
-https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Ansteckung.PNG 
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Ansteckungsrate.PNG     
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Ansteckung.PNG     
 
 ##Immunität<a name="4"></a> 
 
-https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Homogen.PNG
-https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/movement.PNG 
-https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Boolsche.PNG 
-https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Heilungschance.PNG 
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Homogen.PNG    
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/movement.PNG     
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Boolsche.PNG     
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Heilungschance.PNG    
 
 ##Gesundheitszustand<a name="5"></a> 
 
-https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Gesundheitszustand.PNG  
-https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Grafik.PNG  
-https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Epidemie%20Grafik.PNG  
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Gesundheitszustand.PNG     
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Grafik.PNG     
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Epidemie%20Grafik.PNG     
