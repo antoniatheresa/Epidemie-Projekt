@@ -31,6 +31,6 @@ https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Ansteckung.PNG
 
 ##Immunität<a name="3"></a> 
 
-
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Boolsche.PNG
 
 
