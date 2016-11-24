@@ -41,3 +41,4 @@ https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Boolsche.PNG
 ##Gesundheitszustand<a name="5"></a> 
 
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Gesundheitszustand.PNG
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Grafik.PNG
