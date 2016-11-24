@@ -16,12 +16,14 @@ Es ist übersichtlich aufgebaut und besteht aus zwei Feldern, dem Programmierfel
 
 ##Homogene Epidemie<a name="1"></a> 
 
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Ansteckungsrate.PNG
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Giraffen.PNG
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Homogen.PNG
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/movement.PNG
 
 ##Infektionsherd<a name="2"></a> 
 
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Ansteckungsrate.PNG
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Infektionsherd.PNG
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Gleichung%20Infektionsherd.PNG
 
@@ -38,4 +40,4 @@ https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Boolsche.PNG
 
 ##Gesundheitszustand<a name="5"></a> 
 
-
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Gesundheitszustand.PNG
