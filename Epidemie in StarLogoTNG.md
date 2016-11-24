@@ -41,6 +41,6 @@ https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Heilungschance.PN
 
 ##Gesundheitszustand<a name="5"></a> 
 
-https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Gesundheitszustand.PNG 
-https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Grafik.PNG 
-https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Epidemie%20Grafik.PNG 
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Gesundheitszustand.PNG  
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Grafik.PNG  
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Epidemie%20Grafik.PNG  
