@@ -12,7 +12,7 @@
 ##StarLogoTNG<a name="Einführung"></a> 
 
 StarLogoTNG ist ein Simulationsprogramm für die Blockprogrammiersprache.
-Es ist übersichtlich aufgebaut und besteht aus zwei Feldern, dem Programmierfeld und dem Spaceland, wo man die Aktionen und Fortschritte der Agenten verfolgen kann. Die Agenten können mehrere Formen annehmen und so individuell eingestellt werden. Auch die Umgebung kann durch Gebäude, Pflanzen und andere Gegenstände ergänzt werden. Durch das Zusammensetzen verschiedener Böcke, die in verschiedenen Ordnern am Rande des Programmierfeldes untergebracht sind, kann man die Agenten zu verschiedenen Handlungen bewegen. 
+Es ist übersichtlich aufgebaut und besteht aus zwei Feldern, dem Programmierfeld und dem Spaceland, wo man die Aktionen und Fortschritte der Agenten verfolgen kann. Die Agenten können mehrere Formen annehmen und so individuell eingestellt werden. Auch die Umgebung kann durch Gebäude, Pflanzen und andere Gegenstände ergänzt werden. Durch das Zusammensetzen verschiedener Böcke, die in Ordnern am Rande des Programmierfeldes untergebracht sind, kann man die Agenten zu verschiedenen Handlungen bewegen. Unten im Spaceland kann man bei Betätigung des "forever"- Buttons die aktuellen Änderungen sichern und die 
 
 ##Homogene Epidemie<a name="1"></a> 
 
