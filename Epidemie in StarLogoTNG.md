@@ -17,7 +17,7 @@ StarLogoTNG ist ein Simulationsprogramm für Blockprogrammiersprache.
 
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Giraffen.PNG
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Homogen.PNG
-
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/movement.PNG
 
 ##Infektionsherd<a name="2"></a> 
 
