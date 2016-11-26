@@ -57,6 +57,6 @@ Nun konnte man zu Beginn der Simulation und im laufe der Simulation die Anzahl d
  
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Grafik.PNG   
 
-Startet man die Simulation einer homogenen Epidemie sieht das Bild mit den gesunden(rot), kranken (blau), und immunen (gelb) "Agenten" im Spaceland so aus:
+Startet man die Simulation einer homogenen Epidemie sieht das Bild mit den gesunden (rot), kranken (blau), und immunen (gelb) "Agenten" im "Spaceland" so aus: 
   
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Epidemie%20Grafik.PNG    
