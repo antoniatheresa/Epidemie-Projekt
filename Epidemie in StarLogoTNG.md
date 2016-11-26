@@ -31,13 +31,15 @@ https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Gleichung%20Infek
     
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Ansteckung.PNG     
 
-Um sich gegenseitig anstecken zu können, müssen sich ein kranker und ein gesunder "Agent" begegnen. Wir mussten also einen "Collisions"-Blog für eine Kollision zwischen zwei Agenten verwenden. Um eine Bedingung für die Ansteckung einstellen zu können setzten wir einen "if-test-then"-Block in eine freies Feld des "Collision"-Blocks. 
-Da sich nur "Agenten" unterschiedlicher Farbe, also unterschiedlicher Gesundheitszustände, anstecken sollen, setzten wir in das "test"-Feld die Bedingung "color of ID"-"collidee" "ungleich" "color of ID"-"ID".
-Als nächstes sollen sich die "Agenten" nur zu einer bestimmten Wahrscheinlichket anstecken. Also setzten wir einen weiteren "if-test-then"-Block in die "test"-Spalte des anderen "if-test-then"-Blocks.
+Um sich gegenseitig anstecken zu können, müssen sich ein kranker und ein gesunder "Agent" begegnen.   
+Wir mussten also einen "Collisions"-Blog für eine Kollision zwischen zwei Agenten verwenden.   
+Um eine Bedingung für die Ansteckung einstellen zu können setzten wir einen "if-test-then"-Block in eine freies Feld des "Collision"-Blocks.     
+Da sich nur "Agenten" unterschiedlicher Farbe, also unterschiedlicher Gesundheitszustände, anstecken sollen, setzten wir in das "test"-Feld die Bedingung "color of ID"-"collidee" "ungleich" "color of ID"-"ID".   
+Als nächstes sollen sich die "Agenten" nur zu einer bestimmten Wahrscheinlichket anstecken. Also setzten wir einen weiteren "if-test-then"-Block in die "test"-Spalte des anderen "if-test-then"-Blocks.  
 In die "test"-Spalte setzten wir die Bedingung "random"-"100" "ist kleiner oder gleich" "Ansteckungsrate".
-Somit erhalten wir eine Ansteckunswhrscheinlichkeit in Prozent. 
-Trifft diese Bedingung zu, soll der "Agent" erkranken. 
-Also setzten wir in die "then"-Spalte den Befehl "set color"-blue" und die boolsche Variable "ist krank" mit "set ist krank" auf "true". 
+Somit erhalten wir eine Ansteckunswhrscheinlichkeit in Prozent.   
+Trifft diese Bedingung zu, soll der "Agent" erkranken.   
+Also setzten wir in die "then"-Spalte den Befehl "set color"-blue" und die boolsche Variable "ist krank" mit "set ist krank" auf "true".   
 
 Die Ansteckungsrate ist mit einem "slider"-Block im Kontrollzentrum des "Spaceland" durch einen Schieberegler einstellbar.
 
@@ -57,15 +59,20 @@ https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Gesundheitszustan
 Die "Agenten" in der Epidemie-Simulation nehmen nun nach und nach unterschiedliche Farben an (rot, blau, grün).
 Damit wir die Verteilung der unterschiedlichen Gesundheitszustäne (Gesund, Krank, Immun) im Blick haben können,
 erstellten wir ein Säulendiagramm, in dem wir die Unterschielichen Mengen der Gesundheitszustände mittels Säulen
-in den entsprechenden Farben ablesen können. 
-Hierzu mussten wir zunächst einen "bar graph"-Block erstellen, den wir zuerst in "Gesundheitszustand" umbenannten. In den offenen "socks" konnten wir nun die Bedingungen für die einzelnen Säulen eingeben.
-Wir erstellten zuerst die Säule, die die Menge der gesunden "Agenten" angibt. Hierzu setzten wir an der "Gesundheitszustand"-Block den Befehl "count Agent with" an. Die Bedingung sollte in diesem Fall sein, 
-"red" "=" "color of ID"-"ID". Die Farbe des Agenten sollte also der Farbe rot entsprechen, um in dieser Säule gezählt zu werden. 
-Ähnlich fuhren wir bei den weiteren freien Feldern des "Gesundheitszustand"-Blocks fort. Wir setzten wieder den Befehl "count Agent with" ein. In dieser Säule sollte aber die Anzahl der kranken "Agenten" dargestellt werden.
-Hierzu setzten wir als Bedingung "blue" "=" "color of ID"-"ID" ein. 
-Für die immunen Agenten fuhren wir genau so fort, setzten jedoch als Bedingung "yellow" "=" "color of ID"-"ID" ein.
-Nun konnte man zu Beginn der Simulation und im laufe der Simulation die Anzahl der gesunden, kranken und immunen Agenten im "Kontrollzentrum" des "Spaceland" ablesen. 
-Durch Anklicken der Grafik kann der Zahlenbereich der Y- bzw. X-Achse ablesen. 
+in den entsprechenden Farben ablesen können.    
+Hierzu mussten wir zunächst einen "bar graph"-Block erstellen, den wir zuerst in "Gesundheitszustand" umbenannten.   
+In den offenen "socks" konnten wir nun die Bedingungen für die einzelnen Säulen eingeben.  
+Wir erstellten zuerst die Säule, die die Menge der gesunden "Agenten" angibt.   
+Hierzu setzten wir an der "Gesundheitszustand"-Block den Befehl "count Agent with" an. 
+Die Bedingung sollte in diesem Fall sein:    
+"red" "=" "color of ID"-"ID". Die Farbe des Agenten sollte also der Farbe rot entsprechen, um in dieser Säule gezählt zu werden.    
+Ähnlich fuhren wir bei den weiteren freien Feldern des "Gesundheitszustand"-Blocks fort.    
+Wir setzten wieder den Befehl "count Agent with" ein.    
+In dieser Säule sollte aber die Anzahl der kranken "Agenten" dargestellt werden.   
+Hierzu setzten wir als Bedingung "blue" "=" "color of ID"-"ID" ein.    
+Für die immunen Agenten fuhren wir genau so fort, setzten jedoch als Bedingung "yellow" "=" "color of ID"-"ID" ein.     
+Nun konnte man zu Beginn der Simulation und im laufe der Simulation die Anzahl der gesunden, kranken und immunen Agenten im "Kontrollzentrum" des "Spaceland" ablesen.    
+Durch Anklicken der Grafik kann der Zahlenbereich der Y- bzw. X-Achse ablesen.    
  
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Grafik.PNG   
 
