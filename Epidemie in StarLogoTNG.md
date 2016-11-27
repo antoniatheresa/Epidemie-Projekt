@@ -83,17 +83,18 @@ Für die Drehung nach rechts in einem Winkel von 1-30 Grad setzen wir den Befehl
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Infektionsherd.PNG        
 
 Um einen Agenten die Epedemie auslösen zu lassen, brauchten wir einen Infektionsherd. 
-Zuerst erstellten wir einen neuen Block, den wir "Infektionsherd" nannten und fügten die Variablen "clear everyone" hinzu.    
+Zuerst erstellten wir einen neuen Block, den wir "Infektionsherd" nannten und fügten die Variablen "clear everyone" hinzu, um mit einer neuen Population bei einem Neustart beginnen zu können. 
 
 Danach setzten wir unter diese Variable den Block "create agent", um den Auslöser der Epidemie zu kreieren.
-Zu diesem Block kamen die Variablen "number Agent" und die Farbe des kranken Agenten. 
+Zu diesem Block kamen die Variablen "number Agent", damit wir wie bei der homogenen Epidemie die Anzahl der Agenten im Spaceland einstellen konnten.
+Dazu setzten wir mit "set color"-"red" die Farbe der gesunden Agenten auf rot.
 
 Außerdem war ein "if then test"- Block nötig, da die Farbe sich bei einer Ensteckung ändern sollte. 
 
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Gleichung%20Infektionsherd.PNG 
 
 Nachdem wir dies getan hatten, erstellten wir eine lange Variable nach Vorlage des des Satzes des Pythagoras.
-Sie beschreibt die Aktion, dass ein kranker Agent einen gesunden bei einer Kollision infiziert und dann dessen Farbe annimmt. 
+Sie bewirkt, dass sich nur die Agenten infizieren, die sich in einem bestimmten Bereich des "Spaceland" aufhalten.
 
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Ansteckungsrate.PNG  
 
