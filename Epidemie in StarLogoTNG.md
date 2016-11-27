@@ -18,43 +18,43 @@ Es ist übersichtlich aufgebaut und besteht aus zwei Feldern, dem Programmierfel
 
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Boolsche.PNG
 
-Um eine homogene Epidemie zu erstellen müssen wir zunächst eine boolsche Agentenvariable für den Zustand "ist krank" und "ist immun" einrichten.
+Um eine homogene Epidemie zu erstellen müssen wir zunächst eine boolsche Agentenvariable für den Zustand "ist krank" und "ist immun" einrichten.    
  
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Ansteckungsrate.PNG   
 
-Als nächsten Schritt muss eine Anstekungswahrscheinlichkeit festgelegt werden, nach der ein gewisser Prozentsatz der Population erkrankt sein soll.   
-Dazu erstellen wir einen "slider"- Block, mit dem wir die "Ansteckungsrate" festlegen können.   
-Den maximalen Wert setzten wir dazu auf "100".   
-Im Kontrollzentrum des "Spacerland" kann man nun über einen Schieberegler die Ansteckungsrate einstellen.
+Als nächsten Schritt muss eine Anstekungswahrscheinlichkeit festgelegt werden, nach der ein gewisser Prozentsatz der Population erkrankt sein soll.     
+Dazu erstellen wir einen "slider"- Block, mit dem wir die "Ansteckungsrate" festlegen können .     
+Den maximalen Wert setzten wir dazu auf "100".      
+Im Kontrollzentrum des "Spacerland" kann man nun über einen Schieberegler die Ansteckungsrate einstellen.    
 
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Giraffen.PNG      
 
-Wie mit der Ansteckungsrate, fahren wir mit der Anzahl der Giraffen, also der Populationsgröße fort.   
-Mithilfe eines Slider Blocks und der Bedingung "Number Agents", setzen wir die maximale Populationsgröße auf 100 Giraffen/"Agenten".    
-Wie die Ansteckungsrate kann die Populationsgröße im Kontrollzentrum des "Spaceland" eingestellt werden.  
+Wie mit der Ansteckungsrate, fahren wir mit der Anzahl der Giraffen, also der Populationsgröße fort.     
+Mithilfe eines Slider Blocks und der Bedingung "Number Agents", setzen wir die maximale Populationsgröße auf 100 Giraffen/"Agenten".       
+Wie die Ansteckungsrate kann die Populationsgröße im Kontrollzentrum des "Spaceland" eingestellt werden.    
 
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Homogen.PNG    
 
-Nun können wir mit der Programmierung der homogen verteilten Epidemie beginnen.   
-Hierzu erstellen wir zunächst einen "setup"-Block, den wir in "Homogen" umbenennen.   
+Nun können wir mit der Programmierung der homogen verteilten Epidemie beginnen.      
+Hierzu erstellen wir zunächst einen "setup"-Block, den wir in "Homogen" umbenennen.      
 Damit wir bei jedem Neustart mit einer neuen Population beginnen können, setzen wir zuerst den Befehl 
-"clear everyone" ein. 
-Somit wird bei jedem neustart über den "Homogen"-"setup"-Block im Kontrollzentrum die alte Population gelöscht.
-Als nächstes setzen wir einen "create Agent-number-do"-Block ein.
-Über das "number"-Feld können wir die größe der kreierten "Agenten" einstellen. 
-Dazu setzen wir den "number Agents"-Block ein, bei dem wir die Anzahl über den Schieberegler im "SPaceland einstellen können.   
-In das "do"-Feld setzen wir zuerst den Befehl "set color"-"red" ein, damit alle gesunden "Agenten" die Farbe rot annehmen.   
-Danach haben wir die Befehle "set ist krank"-"false" und "set ist immun"-"false" eingesetzt, um die boolschen Agentenvariabeln zu initialisieren.   
-Denn diese sollen für die gesunden/roten "Agenten" als falsch eingestellt sein. 
-Damit ein bestimmter Prozentsatz, homogen über die Population verteilt, krank werden kann, setzen wir einen "if-test-then"-Block ein. 
-In die "test"-Spalte setzen wir die Bedingung "random"-"100" "ist kleiner oder gleich" "Ansteckungsrate". 
-In die "then"-Spalte setzen wir den Befehl "set color"-"blue" und setzen die boolsche Agentenvariabel mit "set ist krank"-"true" auf "wahr".
-Wenn also die Bedingung in der "test"-Spalte zutrifft wird der Agent krank/blau.
+"clear everyone" ein.    
+Somit wird bei jedem neustart über den "Homogen"-"setup"-Block im Kontrollzentrum die alte Population gelöscht.  
+Als nächstes setzen wir einen "create Agent-number-do"-Block ein.     
+Über das "number"-Feld können wir die größe der kreierten "Agenten" einstellen.    
+Dazu setzen wir den "number Agents"-Block ein, bei dem wir die Anzahl über den Schieberegler im "SPaceland einstellen können.      
+In das "do"-Feld setzen wir zuerst den Befehl "set color"-"red" ein, damit alle gesunden "Agenten" die Farbe rot annehmen.      
+Danach haben wir die Befehle "set ist krank"-"false" und "set ist immun"-"false" eingesetzt, um die boolschen Agentenvariabeln zu initialisieren.      
+Denn diese sollen für die gesunden/roten "Agenten" als falsch eingestellt sein.    
+Damit ein bestimmter Prozentsatz, homogen über die Population verteilt, krank werden kann, setzen wir einen "if-test-then"-Block ein.     
+In die "test"-Spalte setzen wir die Bedingung "random"-"100" "ist kleiner oder gleich" "Ansteckungsrate".     
+In die "then"-Spalte setzen wir den Befehl "set color"-"blue" und setzen die boolsche Agentenvariabel mit "set ist krank"-"true" auf "wahr".      
+Wenn also die Bedingung in der "test"-Spalte zutrifft wird der Agent krank/blau.    
  
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/movement.PNG     
 
-Damit sich die Krankheit ausbreiten kann, erstellen wir einen "forever"-Block und setzen einen Befehl für die Bewegung nach Vorne mit 1 bis 10 Schritten durch "forward"-"random"-"10" ein.   
-Für die Drehung nach rechts in einem Winkel von 1-30 Grad setzen wir den Befehl "right"-"random"-"30" ein.   
+Damit sich die Krankheit ausbreiten kann, erstellen wir einen "forever"-Block und setzen einen Befehl für die Bewegung nach Vorne mit 1 bis 10 Schritten durch "forward"-"random"-"10" ein.     
+Für die Drehung nach rechts in einem Winkel von 1-30 Grad setzen wir den Befehl "right"-"random"-"30" ein.      
 
 ##Infektionsherd<a name="2"></a> 
 
@@ -66,15 +66,15 @@ https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Gleichung%20Infek
     
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Ansteckung.PNG     
 
-Um sich gegenseitig anstecken zu können, müssen sich ein kranker und ein gesunder "Agent" begegnen.   
-Wir mussten also einen "Collisions"-Blog für eine Kollision zwischen zwei Agenten verwenden.   
+Um sich gegenseitig anstecken zu können, müssen sich ein kranker und ein gesunder "Agent" begegnen.     
+Wir mussten also einen "Collisions"-Blog für eine Kollision zwischen zwei Agenten verwenden.     
 Um eine Bedingung für die Ansteckung einstellen zu können setzten wir einen "if-test-then"-Block in eine freies Feld des "Collision"-Blocks.     
-Da sich nur "Agenten" unterschiedlicher Farbe, also unterschiedlicher Gesundheitszustände, anstecken sollen, setzten wir in das "test"-Feld die Bedingung "color of ID"-"collidee" "ungleich" "color of ID"-"ID".   
-Als nächstes sollen sich die "Agenten" nur zu einer bestimmten Wahrscheinlichket anstecken. Also setzten wir einen weiteren "if-test-then"-Block in die "test"-Spalte des anderen "if-test-then"-Blocks.  
-In die "test"-Spalte setzten wir die Bedingung "random"-"100" "ist kleiner oder gleich" "Ansteckungsrate".
+Da sich nur "Agenten" unterschiedlicher Farbe, also unterschiedlicher Gesundheitszustände, anstecken sollen, setzten wir in das "test"-Feld die Bedingung "color of ID"-"collidee" "ungleich" "color of ID"-"ID".     
+Als nächstes sollen sich die "Agenten" nur zu einer bestimmten Wahrscheinlichket anstecken. Also setzten wir einen weiteren "if-test-then"-Block in die "test"-Spalte des anderen "if-test-then"-Blocks.    
+In die "test"-Spalte setzten wir die Bedingung "random"-"100" "ist kleiner oder gleich" "Ansteckungsrate".  
 Somit erhalten wir eine Ansteckunswhrscheinlichkeit in Prozent.   
 Trifft diese Bedingung zu, soll der "Agent" erkranken.   
-Also setzten wir in die "then"-Spalte den Befehl "set color"-blue" und die boolsche Variable "ist krank" mit "set ist krank" auf "true".   
+Also setzten wir in die "then"-Spalte den Befehl "set color"-blue" und die boolsche Agentenvariable "ist krank" mit "set ist krank" auf "true".   
 
 Die Ansteckungsrate ist mit einem "slider"-Block im Kontrollzentrum des "Spaceland" durch einen Schieberegler einstellbar.
 
@@ -82,10 +82,26 @@ https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Ansteckungsrate.P
 
 ##Immunität<a name="4"></a> 
 
-https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Homogen.PNG    
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Homogen.PNG        
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Boolsche.PNG    
+
+Damit wir eine Immunität einrichten zu können müssen wir eine boolsche Agentenvariable für den Zustand "ist immun" erstellen. 
+
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/movement.PNG     
-https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Boolsche.PNG     
-https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Heilungschance.PNG    
+   
+Die kranken Agenten sollen nach einiger Zeit zu einer bestimmten Wahrscheinlickeit wieder gesund werden.   
+Daraufhin sollen sie immun sein.   
+Dazu setzen wir in den "forever"-Block einen "if-test-then"-Block ein.    
+In die "test"-Spalte setzen wir die Bedingung "random"-"100" "ist kleiner oder gleich" "Heilingschance".    
+Trifft dieser ZUstand bei einem "Agenten" ein, soll er die Befehle aus der "then"-Spalte ausführen.   
+Diese wären:  
+"Set color"-"green" und "set ist immun"-"true".  
+Er soll also die farbe grün für immun annehmen und die boolsche Agentenvariable für "ist immun" wir auf "true" gesetzt. 
+
+https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Heilungschance.PNG 
+
+Die Heilungschance soll wieder mit einem Schieberegler im Spacland einstellbar sein.   
+Hierzu erstellen wir einen "slider"-Block für die Heilunschance ein und setzen wieder den maximalen Wert auf "100".   
 
 ##Gesundheitszustand<a name="5"></a> 
 
