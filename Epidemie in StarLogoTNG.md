@@ -18,13 +18,13 @@ Es ist übersichtlich aufgebaut und besteht aus zwei Feldern, dem Programmierfel
 
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Boolsche.PNG
 
-Um eine homogene Epidemie zu erstellen müssen wir zunächst eine boolsche Agentenvariable für den Zustand "ist krank" und "ist immun" einrichten.    
+Um eine homogene Epidemie zu erstellen, müssen wir zunächst eine boolsche Agentenvariable für den Zustand "ist krank" und "ist immun" einrichten.    
  
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Ansteckungsrate.PNG   
 
-Als nächsten Schritt muss eine Anstekungswahrscheinlichkeit festgelegt werden, nach der ein gewisser Prozentsatz der Population erkrankt sein soll.     
+Als nächsten Schritt muss eine Ansteckungswahrscheinlichkeit festgelegt werden, nach der ein gewisser Prozentsatz der Population erkrankt sein soll.     
 Dazu erstellen wir einen "slider"- Block, mit dem wir die "Ansteckungsrate" festlegen können.
-Dafür setzen wir an den "slider"-Block die globale Variable "shared number" und benennen sie in "Ansteckungsrate" um.     
+Danach setzen wir an den "slider"-Block die globale Variable "shared number" und benennen sie in "Ansteckungsrate" um.     
 Den maximalen Wert setzten wir dazu auf "100".      
 Im Kontrollzentrum des "Spacerland" kann man nun über einen Schieberegler die Ansteckungsrate einstellen.    
 
@@ -32,7 +32,7 @@ https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Giraffen.PNG
 
 Wie mit der Ansteckungsrate, fahren wir mit der Anzahl der Giraffen, also der Populationsgröße fort.     
 Mithilfe eines "Slider"-Blocks und der Bedingung "Number Agents", setzen wir die maximale Populationsgröße auf 100 Giraffen/"Agenten".   
-Dafür setzen wir an den "slider"-Block die globale Variable "shared number" und benennen sie in "Number Agents" um.       
+Dafür fügen wir an den "slider"-Block an die globale Variable "shared number" und benennen sie in "Number Agents" um.       
 Wie die Ansteckungsrate kann die Populationsgröße im Kontrollzentrum des "Spaceland" eingestellt werden.    
 
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Homogen.PNG    
@@ -41,12 +41,12 @@ Nun können wir mit der Programmierung der homogen verteilten Epidemie beginnen.
 Hierzu erstellen wir zunächst einen "setup"-Block, den wir in "Homogen" umbenennen.      
 Damit wir bei jedem Neustart mit einer neuen Population beginnen können, setzen wir zuerst den Befehl 
 "clear everyone" ein.    
-Somit wird bei jedem neustart über den "Homogen"-"setup"-Block im Kontrollzentrum die alte Population gelöscht.  
+Somit wird bei jedem Neustart über den "Homogen"-"setup"-Block im Kontrollzentrum die alte Population gelöscht.  
 Als nächstes setzen wir einen "create Agent-number-do"-Block ein.     
-Über das "number"-Feld können wir die größe der kreierten "Agenten" einstellen.    
-Dazu setzen wir den "number Agents"-Block ein, bei dem wir die Anzahl über den Schieberegler im "SPaceland einstellen können.      
+Über das "number"-Feld können wir die Größe der kreierten "Agenten" einstellen.    
+Dazu setzen wir den "number Agents"-Block ein, bei dem wir die Anzahl über den Schieberegler im "Spaceland" einstellen können.      
 In das "do"-Feld setzen wir zuerst den Befehl "set color"-"red" ein, damit alle gesunden "Agenten" die Farbe rot annehmen.      
-Danach haben wir die Befehle "set ist krank"-"false" und "set ist immun"-"false" eingesetzt, um die boolschen Agentenvariabeln zu initialisieren.      
+Danach haben wir die Befehle "set ist krank"-"false" und "set ist immun"-"false" verwendet, um die boolschen Agentenvariabeln zu initialisieren.      
 Denn diese sollen für die gesunden/roten "Agenten" als falsch eingestellt sein.    
 Damit ein bestimmter Prozentsatz, homogen über die Population verteilt, krank werden kann, setzen wir einen "if-test-then"-Block ein.     
 In die "test"-Spalte setzen wir die Bedingung "random"-"100" "ist kleiner oder gleich" "Ansteckungsrate".     
@@ -70,7 +70,7 @@ https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Ansteckung.PNG
 
 Um sich gegenseitig anstecken zu können, müssen sich ein kranker und ein gesunder "Agent" begegnen.     
 Wir mussten also einen "Collisions"-Blog für eine Kollision zwischen zwei Agenten verwenden.     
-Um eine Bedingung für die Ansteckung einstellen zu können setzten wir einen "if-test-then"-Block in eine freies Feld des "Collision"-Blocks.     
+Um eine Bedingung für die Ansteckung einstellen zu können, setzten wir einen "if-test-then"-Block in eine freies Feld des "Collision"-Blocks.     
 Da sich nur "Agenten" unterschiedlicher Farbe, also unterschiedlicher Gesundheitszustände, anstecken sollen, setzten wir in das "test"-Feld die Bedingung "color of ID"-"collidee" "ungleich" "color of ID"-"ID".     
 Als nächstes sollen sich die "Agenten" nur zu einer bestimmten Wahrscheinlichket anstecken. Also setzten wir einen weiteren "if-test-then"-Block in die "test"-Spalte des anderen "if-test-then"-Blocks.    
 In die "test"-Spalte setzten wir die Bedingung "random"-"100" "ist kleiner oder gleich" "Ansteckungsrate".  
@@ -99,7 +99,7 @@ In die "test"-Spalte setzen wir die Bedingung "random"-"100" "ist kleiner oder g
 Trifft dieser ZUstand bei einem "Agenten" ein, soll er die Befehle aus der "then"-Spalte ausführen.   
 Diese wären:  
 "Set color"-"green" und "set ist immun"-"true".  
-Er soll also die farbe grün für immun annehmen und die boolsche Agentenvariable für "ist immun" wir auf "true" gesetzt. 
+Er soll also die Farbe grün für immun annehmen, weshalb wir die boolsche Agentenvariable für "ist immun" auf "true" eingestellt haben.
 
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Heilungschance.PNG 
 
@@ -112,8 +112,8 @@ Dafür setzen wir an den "slider"-Block die globale Variable "shared number" und
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Gesundheitszustand.PNG  
 
 Die "Agenten" in der Epidemie-Simulation nehmen nun nach und nach unterschiedliche Farben an (rot, blau, grün).
-Damit wir die Verteilung der unterschiedlichen Gesundheitszustäne (Gesund, Krank, Immun) im Blick haben können,
-erstellten wir ein Säulendiagramm, in dem wir die Unterschielichen Mengen der Gesundheitszustände mittels Säulen
+Damit wir die Verteilung der unterschiedlichen Gesundheitszustände (Gesund, Krank, Immun) im Blick haben können,
+erstellten wir ein Säulendiagramm, in dem wir die unterschiedlichen Mengen der Gesundheitszustände mittels Säulen
 in den entsprechenden Farben ablesen können.    
 Hierzu mussten wir zunächst einen "bar graph"-Block erstellen, den wir zuerst in "Gesundheitszustand" umbenannten.   
 In den offenen "socks" konnten wir nun die Bedingungen für die einzelnen Säulen eingeben.  
