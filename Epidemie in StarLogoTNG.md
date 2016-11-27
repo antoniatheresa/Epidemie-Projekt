@@ -23,14 +23,16 @@ Um eine homogene Epidemie zu erstellen müssen wir zunächst eine boolsche Agent
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Ansteckungsrate.PNG   
 
 Als nächsten Schritt muss eine Anstekungswahrscheinlichkeit festgelegt werden, nach der ein gewisser Prozentsatz der Population erkrankt sein soll.     
-Dazu erstellen wir einen "slider"- Block, mit dem wir die "Ansteckungsrate" festlegen können .     
+Dazu erstellen wir einen "slider"- Block, mit dem wir die "Ansteckungsrate" festlegen können.
+Dafür setzen wir an den "slider"-Block die globale Variable "shared number" und benennen sie in "Ansteckungsrate" um.     
 Den maximalen Wert setzten wir dazu auf "100".      
 Im Kontrollzentrum des "Spacerland" kann man nun über einen Schieberegler die Ansteckungsrate einstellen.    
 
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Giraffen.PNG      
 
 Wie mit der Ansteckungsrate, fahren wir mit der Anzahl der Giraffen, also der Populationsgröße fort.     
-Mithilfe eines Slider Blocks und der Bedingung "Number Agents", setzen wir die maximale Populationsgröße auf 100 Giraffen/"Agenten".       
+Mithilfe eines "Slider"-Blocks und der Bedingung "Number Agents", setzen wir die maximale Populationsgröße auf 100 Giraffen/"Agenten".   
+Dafür setzen wir an den "slider"-Block die globale Variable "shared number" und benennen sie in "Number Agents" um.       
 Wie die Ansteckungsrate kann die Populationsgröße im Kontrollzentrum des "Spaceland" eingestellt werden.    
 
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Homogen.PNG    
@@ -72,13 +74,14 @@ Um eine Bedingung für die Ansteckung einstellen zu können setzten wir einen "i
 Da sich nur "Agenten" unterschiedlicher Farbe, also unterschiedlicher Gesundheitszustände, anstecken sollen, setzten wir in das "test"-Feld die Bedingung "color of ID"-"collidee" "ungleich" "color of ID"-"ID".     
 Als nächstes sollen sich die "Agenten" nur zu einer bestimmten Wahrscheinlichket anstecken. Also setzten wir einen weiteren "if-test-then"-Block in die "test"-Spalte des anderen "if-test-then"-Blocks.    
 In die "test"-Spalte setzten wir die Bedingung "random"-"100" "ist kleiner oder gleich" "Ansteckungsrate".  
-Somit erhalten wir eine Ansteckunswhrscheinlichkeit in Prozent.   
+Somit erhalten wir eine Ansteckunswahrscheinlichkeit in Prozent.   
 Trifft diese Bedingung zu, soll der "Agent" erkranken.   
 Also setzten wir in die "then"-Spalte den Befehl "set color"-blue" und die boolsche Agentenvariable "ist krank" mit "set ist krank" auf "true".   
 
-Die Ansteckungsrate ist mit einem "slider"-Block im Kontrollzentrum des "Spaceland" durch einen Schieberegler einstellbar.
-
 https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Ansteckungsrate.PNG      
+
+Die Ansteckungsrate ist mit einem "slider"-Block im Kontrollzentrum des "Spaceland" durch einen Schieberegler einstellbar.   
+Dafür setzen wir an den "slider"-Block die globale Variable "shared number" und benennen sie in "Ansteckungsrate" um.   
 
 ##Immunität<a name="4"></a> 
 
@@ -102,6 +105,7 @@ https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Heilungschance.PN
 
 Die Heilungschance soll wieder mit einem Schieberegler im Spacland einstellbar sein.   
 Hierzu erstellen wir einen "slider"-Block für die Heilunschance ein und setzen wieder den maximalen Wert auf "100".   
+Dafür setzen wir an den "slider"-Block die globale Variable "shared number" und benennen sie in "Heilungschance" um.   
 
 ##Gesundheitszustand<a name="5"></a> 
 
