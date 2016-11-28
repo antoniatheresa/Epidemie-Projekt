@@ -36,7 +36,7 @@ Durch die vielen Gestaltungsmöglichkeiten ist StarLogoTNG sehr vielfältig nutz
 
 ##Homogene Epidemie<a name="1"></a> 
 
-https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Boolsche.PNG
+![Boolsche Varablen](https://github.com/antoniatheresa/Epidemie-Projekt/blob/master/Boolsche.PNG)
 
 Um eine homogene Epidemie zu erstellen, müssen wir zunächst eine boolsche Agentenvariable für den Zustand "ist krank" und "ist immun" einrichten.    
  
